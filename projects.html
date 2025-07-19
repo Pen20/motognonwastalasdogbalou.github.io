@@ -22,61 +22,45 @@
 
   <main>
     <section>
+      <h2>LLM-Powered Student Error Analyzer in Math</h2>
+      <p>Designed and developed an interactive web application to analyze student math responses using large language models (LLMs).</p>
+      <p>The tool compares student answers with correct solutions and automatically explains their mistakes while categorizing them using general error types and <strong>Newman’s Error Analysis</strong> (NEA).</p>
+      <p>Supports both <strong>OpenAI GPT-4o</strong> and <strong>Gemini 2.0 Flash</strong>, with an instruction inbox to guide LLM responses based on custom mathematical concepts.</p>
+      <p>Users upload CSV datasets and receive annotated feedback with explanations, summaries, and NEA labels. Results are downloadable as CSV.</p>
+      <p>Technologies: Python, Streamlit, OpenAI API, Google Gemini API, pandas</p>
+      <p><a href="https://studenterrorexplainer.streamlit.app/" target="_blank" rel="noopener noreferrer">🔗 View the Live App</a></p>
+    </section>
+
+    <section>
+      </section>
+      <h2>AI-Powered Educational Feedback Assistant</h2>
+      <p>Developed a math education assistant for analyzing student performance using STACK datasets.</p>
+      <p>Integrated GPT-4o chatbot and Streamlit dashboards for insights on grades, error types, and NEA error categories.</p>
+      <p>Users can upload datasets or explore a default one; chatbot runs with user-provided OpenAI API keys.</p>
+      <p>Technologies: Python, Streamlit, LangChain, OpenAI GPT-4o, MongoDB, ChromaDB</p>
+      <p><a href="https://ai-math-feedback.streamlit.app/" target="_blank" rel="noopener noreferrer">🔗 View the Live App</a></p>
+    </section>
+
+    <section>
+      <h2>EduStackBot – Intelligent Student Error Analysis</h2>
+      <p>Designed and implemented an interactive RAG-powered web app that diagnoses student misconceptions directly from free-form math responses.</p>
+      <p>Combines vector similarity search over a <strong>Neo4j</strong> knowledge graph with dynamic <strong>Cypher-generated</strong> queries to ground answers in prior student data and curriculum content.</p>
+      <p>A ReAct agent orchestrates two tools—graph Q&amp;A and similarity retriever—to craft feedback that labels each mistake with both general categories and <strong>Newman’s Error Analysis</strong> (NEA) levels.</p>
+      <p>Supports both <strong>OpenAI GPT-4o</strong> and <strong>Gemini 2.0 Flash</strong>; an instruction inbox lets educators steer the LLM toward custom mathematical concepts.</p>
+      <p>Streamlit UI offers real-time chat plus CSV batch uploads. Users receive downloadable, NEA-annotated results complete with explanations and remediation tips.</p>
+      <p>Technologies: Python, Streamlit, LangChain, Neo4j, OpenAI API, Google Gemini API, pandas</p>
+      <p><a href="https://neo4j-math-feedback.streamlit.app/" target="_blank" rel="noopener noreferrer">🔗 View the Live App</a></p>
+</section>
+
+
+    <section>
       <h2>Tech for Good: Advancing Math Education with AI and UX</h2>
       <p>A collaborative initiative with SAGE AI, this project aimed to harness artificial intelligence and user-centered design to improve mathematics education in underserved communities. The project focused on designing accessible, adaptive learning tools powered by AI to identify student difficulties and offer targeted support.</p>
       <p>My contribution involved developing intelligent feedback systems that analyze student behavior and learning patterns. We also implemented UX enhancements to make the platform more inclusive, intuitive, and engaging for both students and educators.</p>
       <p>This work demonstrates how AI and thoughtful design can promote equity and innovation in education.</p>
       <p><a href="https://medium.com/sage-ai/tech-for-good-advancing-math-education-through-ai-and-enhanced-ux-2159c9230390" target="_blank">Read Article on Medium</a></p>
     </section>
-
-    <section>
-      <h2>Exploratory Data Analysis of Student Assessments</h2>
-      <p>This project demonstrates how to analyze quiz and exam results using Python. It includes data aggregation, metric computation, visualizations, and basic clustering with KMeans to uncover trends in student performance.</p>
-      <p><a href="https://github.com/Pen20/ML_Algorithms/blob/main/README.md" target="_blank">View on GitHub</a></p>
-    </section>
-
-    <section>
-      <h2>Predicting Student Errors using LangChain</h2>
-      <p>This project uses prompt engineering and LangChain to analyze student responses and classify error types in STACK-based mathematics assessments. It integrates prompt-based logic to automatically identify misconception patterns.</p>
-      <p><a href="https://github.com/Pen20/LLM_Student_Errors_Prediction" target="_blank">View on GitHub</a></p>
-    </section>
-
-    <section>
-      <h2>Educational Feedback Analysis Assistant</h2>
-      <p>An AI-powered chatbot application built with Streamlit, designed to support educators in diagnosing student learning challenges. Unlike previous versions, this tool does not use a Neo4j knowledge graph but provides an intuitive interface for uploading datasets and receiving targeted feedback on student errors.</p>
-      <p>The interface includes interactive buttons that allow educators to explore grade distributions, item difficulty and discrimination indices, and the different stages of student errors based on educational theory. This assistant helps visualize key learning patterns and supports data-driven decision-making in the classroom.</p>
-      <p><a href="https://github.com/Pen20/Feedback_Error_Chatbot" target="_blank">View on GitHub</a></p>
-    </section>
-    <section>
-      <h2>AI Chatbot with Neo4j Knowledge Graph</h2>
-      <p>A conversational agent powered by a Neo4j knowledge graph and LangChain's agent framework. It supports educators by retrieving cohort-based performance data and visualizing error categories in mathematics learning analytics.</p>
-      <p><a href="https://github.com/Pen20/neobot" target="_blank">View on GitHub</a></p>
-    </section>
-    <section>
-      <h2>Neo4j Movie Recommendation</h2>
-      <p>This full-stack application is built with Node.js and Neo4j to explore movie data and user preferences. It features a recommendation system, genre-based filtering, actor and director information, and personalized favorites management.</p>
-      <p>The backend utilizes the Neo4j JavaScript driver and Cypher queries, while the frontend offers an intuitive UI for navigating through the movie database. The app demonstrates how graph databases can support dynamic, real-time relationships in entertainment applications.</p>
-      <p><strong>Technologies:</strong> Node.js, Neo4j, Cypher, JavaScript, HTML/CSS</p>
-      <p><a href="https://github.com/Pen20/neo4j-movie-recommender/tree/main" target="_blank">View on GitHub</a></p>
-    </section>
-    <section>
-      <h2>E-Commerce Chatbot with Product Review Intelligence</h2>
-      <p>A conversational AI chatbot built to enhance online shopping experiences using product data from Flipkart reviews. It leverages NLP techniques to answer customer queries and summarize product insights. The chatbot was deployed on AWS for scalable and real-time access.</p>
-      <p><a href="https://github.com/Pen20/E-Commerce-Chatbot" target="_blank">View on GitHub</a></p>
-    </section>
-
-    <section>
-      <h2>Generate Multiple Choice Questions using LangChain</h2>
-      <p>This project assists in authoring STACK-compatible mathematics questions by generating multiple-choice questions from educator-provided learning materials using LangChain. It streamlines the question creation process and supports scalable content generation in STEM education.</p>
-      <p><a href="https://github.com/Pen20/mcqstack" target="_blank">View on GitHub</a></p>
-    </section>
-    <section>
-      <h2>Educational Feedback Analysis Assistant: AI Agent chatbot with Typescript</h2>
-      <p>A conversational agent powered by a Neo4j knowledge graph and LangChain's agent framework. It supports educators by retrieving cohort-based performance data and visualizing error categories in mathematics learning analytics.</p>
-      <p><a href="https://github.com/Pen20/AI_Chatbots/tree/main/create_aichatbot_nextjs_and_typescript" target="_blank">View on GitHub</a></p>
-    </section>
     
-
   </main>
 
   <footer>
